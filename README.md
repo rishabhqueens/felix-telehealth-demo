@@ -2,29 +2,26 @@
 
 > **Live demo:** https://rishabh-felix-demo.vercel.app
 
-![Felix landing](screenshots/felix-home.png)
-
 ## About Felix
 
 **Industry:** Telehealth / Digital health (Canada)
 
 **What they do:** Felix is a Canadian online medical platform that connects patients to licensed practitioners for ongoing treatment of conditions like weight management, sexual health, and longevity. Patients complete an intake, get matched with a clinician, and receive prescriptions delivered to their door.
 
-## The case study
+## Case Analysis
 
-**Problem.** Telehealth onboarding tends to be either too clinical (a wall of medical questions) or too marketing-led (a sales page in a doctor's lab coat). Patients drop off before the care relationship even starts.
+**Problem.** The current onboarding flow either feels too clinical (long medical forms with little context) or overly transactional. For first-time patients, the experience from consultation to prescription fulfillment can feel unclear and emotionally distant, leading to hesitation, drop-off, and reduced trust.
 
-**Approach.** The demo turns intake into a guided journey: a treatment-led landing page, a conditional questionnaire that adapts to the patient's answers, a "matching" loading state that frames the wait as a clinical review, and a dashboard that resolves to a personalized treatment plan with peer guides, labs, medications, and learning resources.
+**Approach.** This prototype reimagines the Felix onboarding journey through a more patient-centric lens. The experience introduces contextual onboarding enhancements that explain why information is being collected, helping users feel more informed and comfortable throughout the intake process. The platform also explores peer-guides, treatment timelines, and shareable treatment summaries to reduce uncertainty and improve confidence in care decisions.
 
-**Outcome.** A working end-to-end patient journey — from landing page through questionnaire to the post-intake dashboard — that shows how thoughtful onboarding can live inside a telehealth product without losing the care signal.
+**Outcome.** A  lightweight end-to-end telehealth prototype demonstrating how trust, transparency, and guided experiences can improve onboarding and post-intake engagement without compromising clinical rigor.
 
-## What I built
+## How did the prototype solve for it?
 
-- Treatment-led landing page with three care tracks (Weight Loss, ED, Longevity)
-- Adaptive intake questionnaire with conditional branching
-- Matching loading state with clinical framing (not a generic spinner)
-- Patient dashboard with treatment plan, medications, labs, peer guides, and learning resources
-- Peer-guides feature: persona cards that anchor the post-intake experience in real patient-like journeys
+-  **Contextual onboarding** enhancements that explain treatment questions and reduce form anxiety
+-  **Treatment timeline tracker** to clarify next steps and reduce post-consultation drop-off
+-  **Peer Guides feature** showcasing anonymized journeys of similar patients to build confidence and trust
+-  **Shareable PDF treatment summary** inspired by platforms like Jane App and Fullscript for second opinions and treatment clarity
 
 ## Tech stack
 
